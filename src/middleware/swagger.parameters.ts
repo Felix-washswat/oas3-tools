@@ -48,10 +48,10 @@ export class SwaggerParameters {
                 }
             }
 
-            swaggerParameters = concatArrays(swaggerParameters, queryParams);
-            swaggerParameters = concatArrays(swaggerParameters, pathParams);
             swaggerParameters = concatArrays(swaggerParameters, headerParams);
             swaggerParameters = concatArrays(swaggerParameters, cookieParams);
+            swaggerParameters = concatArrays(swaggerParameters, queryParams);
+            swaggerParameters = concatArrays(swaggerParameters, pathParams);
 
             req.openapi.swaggerParameters = swaggerParameters;
 
