@@ -1,24 +1,21 @@
 {
-  "name": "oas3-tools",
-  "version": "2.2.0",
-  "description": "Swagger-UI and API Rest Routing for Open API v3.",
+  "name": "felix-oas3-tools",
+  "version": "0.1",
+  "description": "Fix parameter order of oas3, for personal use. No guarantee.",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist/ && tsc && cp -R src/middleware/swagger-ui dist/middleware/swagger-ui"
   },
   "author": {
-    "name": "Hugo Mercado",
-    "email": "hugo.mario.mercado@gmail.com",
-    "url": "https://github.com/HugoMario"
+    "name": "Felix Cho",
+    "email": "felix@washswat.com",
+    "url": "https://github.com/Felix-washswat"
   },
-  "bugs": {
-    "url": "https://github.com/bug-hunters/oas3-tools/issues"
-  },
-  "homepage": "https://github.com/bug-hunters/oas3-tools",
+  "homepage": "https://github.com/Felix-washswat/oas3-tools",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bug-hunters/oas3-tools.git"
+    "url": "git@github.com:Felix-washswat/oas3-tools.git"
   },
   "keywords": [
     "api",
