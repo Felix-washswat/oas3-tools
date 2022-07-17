@@ -32,7 +32,7 @@ export class ExpressAppConfig {
         const spec = fs.readFileSync(definitionPath, 'utf8');
         const swaggerDoc = jsyaml.safeLoad(spec);
 
-        this.app.use(bodyParser.urlencoded());
+        this.app.use(bodyParser.urlencoded({extended:true}));
         this.app.use(bodyParser.text());
         this.app.use(bodyParser.json());
         this.app.use(bodyParser.raw({ type: 'application/pdf' }));
